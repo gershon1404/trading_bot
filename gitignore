@@ -1,0 +1,48 @@
+# קבצי סביבה וירטואלית
+venv/
+.env/
+.venv/
+Scripts/
+
+# קבצי מפתחות וסיסמאות
+config.env
+*.env
+*.key
+
+# קבצי Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# קבצי לוגים
+*.log
+logs/
+debug.log
+
+# קבצי מערכת של Windows ו־VSCode
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
+
+# קבצי תלות זמניים
+*.egg-info/
+build/
+dist/
+
+# קבצי גיבוי
+*.bak
+*.tmp
+
+# קובץ נעילה של pip
+requirements.lock.txt
+
+# קבצי נתונים (אם תיצור)
+*.csv
+*.json
+*.xlsx
+
+# קבצי Alpaca או נתוני מסחר רגישים
+*.alpaca
+*.keys

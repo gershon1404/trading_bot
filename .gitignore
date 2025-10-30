@@ -1,0 +1,35 @@
+﻿# Virtual env
+venv/
+.venv/
+.env/
+__pycache__/
+
+# Secrets
+config.env
+*.env
+*.key
+*.keys
+
+# Python artifacts
+*.pyc
+*.pyo
+*.pyd
+*.log
+logs/
+*.egg-info/
+build/
+dist/
+
+# Tools/IDE
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# Optional local data
+*.csv
+*.json
+*.xlsx
+
+# Lock (אם לא רוצים לשתף)
+requirements.lock.txt

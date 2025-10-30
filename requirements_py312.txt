@@ -1,0 +1,14 @@
+# Requirements pinned for Python 3.12 (Windows) to avoid building wheels
+alpaca-trade-api==3.1.1
+pandas==2.2.2
+numpy==1.26.4
+ta==0.10.2
+python-dotenv==1.0.1
+pytz==2024.1
+
+# Networking stack pins with prebuilt wheels for cp312-win_amd64
+websockets>=9.0,<11
+aiohttp==3.9.5
+multidict==6.0.5
+yarl==1.9.4
+typing_extensions>=4.8.0
